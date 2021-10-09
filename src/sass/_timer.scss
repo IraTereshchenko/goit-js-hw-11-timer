@@ -1,0 +1,31 @@
+body {
+  font-family: 'Pacifico', cursive;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  top: 0;
+}
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  background: rgb(211, 211, 211);
+}
+.title {
+  position: absolute;
+  top: 200px;
+  font-size: 50px;
+  color: rgb(212, 12, 12);
+}
+
+.value {
+  font-size: 30px;
+}
